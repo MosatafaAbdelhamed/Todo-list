@@ -1,0 +1,106 @@
+
+.text {
+    text-align: center;
+    color: #051105;
+    font-size: 100px;
+    margin-bottom: 0;
+    
+}
+.logo hr{
+    width: 400px;
+    height: 5px;
+    background-color: #051105;
+    margin-bottom: 30px;
+    
+
+}
+*::selection{
+    background-color: #4d2be2;
+ }
+
+body{
+    background-color:#ffffff;
+}
+
+.add-element tr td ul{
+    padding: 0;
+    list-style-type: none;
+
+}
+.input::placeholder {
+    color: #0a0a06;
+}
+.button {
+    height: 42px;
+    margin-bottom: 20px;
+    width:50%;
+}
+.add {
+    text-align: center;
+}
+.input {
+    margin-bottom: 10px;
+    margin-left: 10px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid #c1c2be;
+    padding: 5px 10px;
+    outline: none;
+    background-color: #b9b8b5;
+    color: #090606;
+    font-weight: bold;
+    width: 50%;
+}
+
+.add  button {
+    background-color:#b9b8b5;
+    color: rgb(12, 11, 11);
+    border: none;
+    border-radius: 10px;
+    padding: 6px 15px;
+    margin-left: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.add  button:hover {
+    background-color: #5daa1d;
+}
+
+.table {
+width: 65%;
+margin: auto;
+border-collapse: collapse;
+}
+
+.table th , .table td {
+padding: 12px;
+border: 0px solid #ccc;
+text-align: center;
+}
+
+.table th {
+background-color:#b9b8b5; 
+max-width: 200px;
+white-space: pre-wrap;
+}
+.Task_li {
+    word-break: break-word;
+    max-width: 300px;
+    overflow-wrap: break-word;
+}
+
+.table tr:nth-child(even) {
+background-color:#b9b8b5; 
+}
+.DeletedButton{
+
+    background-color: #b9b8b5 !important;
+}
+.DeletedButton:hover {
+
+    background-color: red !important;
+}
+
+
